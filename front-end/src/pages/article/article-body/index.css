@@ -1,0 +1,82 @@
+@import url(../../../variables.css);
+
+/* end article header */
+
+.article-title {
+    font-size: 1.4rem;
+    color: var(--secondary-color);
+}
+
+.article-info svg {
+    color: var(--primary-color);
+}
+
+.article-info__text {
+    font-size: .9rem;
+}
+
+.article-excerpt {
+    text-align: justify;
+    color: var(--gray-color);
+}
+
+/* end article header */
+
+
+/* start article body */
+
+.article-short-access-links {
+    background-color: var(--bg-color-light);
+    padding: 1rem;
+}
+
+.article-short-access-links ul {
+    margin: 0;
+    padding-right: 1rem;
+}
+
+.article-short-access-links li {
+    margin-top: .3rem;
+}
+
+.article-short-access__title {
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+}
+
+.article-body__content {
+    color: var(--gray-color);
+    text-align: justify;
+}
+
+.article__subtitle {
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+}
+
+.article-paragraph {
+    margin-bottom: .5rem;
+}
+
+.article-image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem !important;
+    margin-bottom: 5rem;
+}
+
+.article-share-text {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+}
+
+.article-share-link svg {
+    transition: all 400ms ease;
+}
+
+.article-share-link:hover svg {
+    color: var(--primary-color);
+}
+
+
+/* end article body */

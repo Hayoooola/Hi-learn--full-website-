@@ -1,0 +1,20 @@
+:root {
+    --primary-color: #2ED573;
+    --primary-color-dark: #25b05f;
+    --primary-color-light: #38ff8b;
+    --secondary-color: #2196f3;
+    --secondary-color-light: #63b9ff;
+    --secondary-color-dark: #446084;
+    --dark-color: #111;
+    --muted-text: #7f8187;
+    --white-light-color: #f1f1f1;
+    --white-color: #fff;
+    --gray-color: #abb8c3;
+    --gray-color-light: #c6cbd5;
+    --yellow-color: #cdb187;
+    --red-color: #e91e63;
+    --bg-color: #242532;
+    --bg-color-light: #2f3041;
+
+    --primary-font: "dana";
+}

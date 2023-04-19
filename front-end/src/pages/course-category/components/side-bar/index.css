@@ -1,0 +1,10 @@
+.course-category-side-bar {
+    position: sticky;
+    top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.side-bar-img {
+    width: -webkit-fill-available;
+    max-height: 100%;
+}

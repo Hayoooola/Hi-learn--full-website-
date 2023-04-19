@@ -1,0 +1,50 @@
+@import url(../../variables.css);
+
+.footer-wrapper {
+    background-color: var(--bg-color-light);
+}
+
+.footer__header__title {
+    color: var(--primary-color);
+}
+
+.footer__header__body {
+    text-align: justify;
+    color: var(--gray-color);
+}
+
+.footer__menu__separator {
+    width: 90%;
+    height: 1px;
+    background-color: var(--yellow-color);
+    margin: .4rem 0;
+}
+
+.footer__link {
+    font-size: 1.1rem;
+}
+
+.footer__section__title {
+    color: var(--yellow-color);
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.enamad__wrapper {
+    background-color: #fff;
+    border-radius: .5rem;
+}
+
+.footer__copy-right {
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+}
+
+.footer__brand {
+    font-size: 1.2rem;
+    color: var(--primary-color) !important;
+}
+
+.footer__copy-right {
+    color: var(--gray-color);
+}

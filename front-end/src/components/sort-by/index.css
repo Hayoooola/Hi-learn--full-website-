@@ -1,0 +1,4 @@
+.MuiButtonBase-root,
+.MuiSelect-select {
+    font-family: var(--primary-font) !important;
+}

@@ -1,0 +1,7 @@
+@import url(../../../../../variables.css);
+
+.course-content__content {
+    line-height: 2rem;
+    text-align: justify;
+    color: var(--gray-color);
+}

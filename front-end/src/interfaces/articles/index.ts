@@ -1,0 +1,15 @@
+import { ICategoryID, ICreator } from "../course-data";
+
+export default interface IArticle {
+    body: React.ReactElement,
+    cover: string,
+    createdAt: string,
+    updatedAt: string;
+    creator: ICreator;
+    categoryID: ICategoryID;
+    description: string;
+    publish: boolean;
+    shortName: string;
+    title: string,
+    _id: string;
+}

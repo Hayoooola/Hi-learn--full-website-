@@ -1,0 +1,5 @@
+@import url(../../variables.css);
+
+.pagination__wrapper a {
+    color: var(--white-color) !important;
+}

@@ -1,0 +1,19 @@
+@import url(../../../../variables.css);
+
+.main-header__user__info:hover span,
+svg {
+    color: var(--white-color);
+}
+
+.main-header__user__info {
+    background-color: var(--secondary-color);
+    font-size: .8rem;
+    min-width: 8rem;
+    max-width: 12rem;
+    overflow: hidden;
+}
+
+.main-header__user__info:hover {
+    background-color: var(--secondary-color-light);
+    transition: all 400ms ease;
+}

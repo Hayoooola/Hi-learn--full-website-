@@ -1,0 +1,71 @@
+@import url(../../../../variables.css);
+
+.course-details__side-bar {
+    position: sticky;
+    top: .5rem;
+}
+
+.course-details__side-bar__box {
+    border: 2px solid var(--bg-color-light);
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+}
+
+.course-details__subscription {
+    background-color: var(--primary-color-dark);
+    padding: .5rem 1rem;
+    border-radius: .2rem;
+}
+
+.course-details__corse-preview__students__badge {
+    background-color: var(--secondary-color);
+    padding: .3rem .8rem;
+    border-radius: .2rem;
+}
+
+.course-details__corse-preview__separator {
+    width: 1px;
+    height: 1.5rem;
+    background-color: var(--gray-color);
+}
+
+.course-details__corse-preview__comments svg,
+.course-details__corse-preview__views svg {
+    color: var(--primary-color-dark) !important;
+}
+
+.course-details__side-bar__short-link__link-wrapper {
+    border: 1px solid var(--primary-color-dark);
+    padding: .4rem .6rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.course-details__side-bar__short-link__link-wrapper span,
+.course-details__side-bar__short-link__link-wrapper svg {
+    font-size: .9rem;
+    cursor: pointer;
+}
+
+.course-details__side-bar__short-link__copy-text {
+    color: var(--primary-color);
+    font-size: .8rem !important;
+    margin-right: .4rem;
+    opacity: 0;
+}
+
+.course-details__side-bar__short-link__copy-text.active {
+    opacity: 1;
+    transition: 300ms ease;
+}
+
+.course-details__side-bar .swiper-pagination-bullet {
+    background-color: var(--gray-color) !important;
+    width: 10px;
+    height: 10px;
+}
+
+.course-details__side-bar .swiper-pagination-bullet-active {
+    background-color: var(--secondary-color) !important;
+}

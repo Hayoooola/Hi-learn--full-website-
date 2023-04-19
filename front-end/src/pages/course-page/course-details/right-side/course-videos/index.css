@@ -1,0 +1,53 @@
+@import url(../../../../../variables.css);
+
+.course-videos__accordion__container .MuiButtonBase-root {
+    background-color: var(--bg-color-light) !important;
+    color: var(--gray-color-light);
+    border: none !important;
+}
+
+.course-videos__accordion__container .MuiAccordionDetails-root {
+    background-color: var(--bg-color-light) !important;
+}
+
+.course-videos__accordion__container p.MuiTypography-root {
+    font-family: var(--primary-font) !important;
+    font-size: 1.1rem;
+}
+
+.course-videos__accordion__video-number {
+    margin-left: 1rem;
+    color: var(--white-color);
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 100px;
+    padding-top: .3rem;
+    border: 1px solid var(--gray-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .9rem;
+}
+
+.course-videos__accordion__video-title a,
+.course-videos__accordion__video-title span,
+.course-videos__accordion__video-time {
+    color: var(--gray-color-light) !important;
+}
+
+.course-videos__accordion__video-time span {
+    color: var(--gray-color);
+}
+
+.course-videos__accordion__video-time svg {
+    color: var(--primary-color-dark);
+}
+
+.course-videos__accordion__video-title a:hover {
+    color: var(--primary-color) !important;
+}
+
+
+.course-videos__accordion__video-icon svg {
+    color: var(--primary-color);
+}

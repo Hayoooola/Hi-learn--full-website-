@@ -1,0 +1,37 @@
+@import url(../../../variables.css);
+
+.course-explanation__category-badge {
+    background-color: var(--secondary-color);
+    font-size: .9rem;
+    padding: .2rem .4rem;
+    border-radius: .1rem;
+    color: var(--white-color) !important;
+    transition: all 400ms;
+}
+
+.course-explanation__category-badge:hover {
+    background-color: var(--primary-color);
+}
+
+.course-explanation__category-badge__wrapper a:hover {
+    color: var(--white-color) !important;
+}
+
+.course-explanation__title {
+    font-size: 1.6rem;
+    color: var(--primary-color);
+}
+
+.course-explanation__content {
+    text-align: justify;
+    color: var(--gray-color);
+}
+
+.course-explanation__social-link svg {
+    transition: all 400ms;
+    margin: auto .2rem;
+}
+
+.course-explanation__social-link:hover svg {
+    color: var(--secondary-color) !important;
+}

@@ -1,0 +1,37 @@
+@import url(../../../../../variables.css);
+
+.main-header__user__info__wrapper {
+    position: relative;
+}
+
+.user-menu__container {
+    display: none;
+}
+
+.user-menu__wrapper {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 15rem;
+    padding: 1rem 2rem;
+    background-color: var(--bg-color-light);
+    border-radius: .5rem;
+    top: 2.5rem
+}
+
+.main-header__user__info__wrapper:hover .user-menu__container {
+    display: block;
+}
+
+.main-header__user-menu__item {
+    margin: .2rem auto;
+}
+
+.main-header__user-menu__item a {
+    color: var(--gray-color) !important;
+    transition: all 400ms ease;
+}
+
+.main-header__user-menu__item a:hover {
+    color: var(--primary-color) !important;
+}

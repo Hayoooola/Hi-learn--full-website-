@@ -1,0 +1,53 @@
+@import url(../../variables.css);
+
+.course-box__wrapper {
+    background-color: var(--bg-color-light);
+    border-radius: .5rem;
+}
+
+.course-box__image {
+    width: 100%;
+    border-radius: .5rem .5rem 0 0;
+}
+
+.course-box__price {
+    color: var(--primary-color);
+}
+
+.course-box__students,
+.course-box__teacher {
+    color: var(--yellow-color);
+    font-size: 1rem;
+}
+
+.course-box__teacher {
+    height: 30px;
+}
+
+.course-box__title {
+    font-size: medium;
+    color: var(--white-color) !important;
+    height: 3rem;
+}
+
+.course-box__rating svg {
+    color: #faaf00;
+}
+
+.course-box__button__wrapper {
+    border-top: 1px solid var(--gray-color);
+}
+
+.course-box__button__title {
+    color: var(--white-color);
+    transition: all 400ms ease;
+}
+
+.course-box__button__link svg {
+    transition: all 400ms ease;
+}
+
+.course-box__button__link:hover .course-box__button__title,
+.course-box__button__link:hover svg {
+    color: var(--primary-color) !important;
+}

@@ -1,0 +1,29 @@
+@import url(../../../variables.css);
+
+.top-header {
+    color: var(--white-color);
+}
+
+.top-header__contact-info__icon svg {
+    color: var(--primary-color);
+}
+
+.top-header__social-icons__link {
+    margin: 0 .1rem;
+}
+
+.top-header__menu__link {
+    font-size: 0.9rem;
+    color: var(--gray-color) !important;
+}
+
+.top-header__wrapper {
+    background-color: rgba(0, 0, 0, 0.14) !important;
+    max-height: 40px;
+    padding-top: .5rem;
+}
+
+.top-header__menu__item {
+    height: 30px;
+    overflow: hidden;
+}

@@ -1,0 +1,19 @@
+@import url(../../../../variables.css);
+
+.articles__content__wrapper {
+    border-radius: .5rem;
+    border: 2px solid var(--bg-color-light);
+    margin: 1rem;
+}
+
+.articles__content {
+    text-align: justify;
+}
+
+.articles__image {
+    border-radius: .5rem .5rem 0 0;
+}
+
+.articles__title {
+    height: 4rem;
+}

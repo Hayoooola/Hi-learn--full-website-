@@ -1,0 +1,31 @@
+@import url(../../../../../variables.css);
+
+.teacher-info__container {
+    border: 2px solid var(--bg-color-light);
+    padding: 1rem
+}
+
+.teacher-info__teacher-image {
+    max-height: 7rem;
+    margin-left: 2rem;
+}
+
+.teacher-info__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.teacher-info__title {
+    font-size: 1.2rem;
+}
+
+.teacher-info__subtitle {
+    color: var(--secondary-color);
+}
+
+.teacher-info__badge {
+    background-color: var(--primary-color-dark);
+    padding: .3rem .6rem;
+    border-radius: .2rem;
+}

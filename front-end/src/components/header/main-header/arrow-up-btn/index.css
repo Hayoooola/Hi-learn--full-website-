@@ -1,0 +1,13 @@
+@import url(../../../../variables.css);
+
+.arrow-up-btn {
+    position: fixed;
+    bottom: 2rem;
+    right: 3rem;
+    background-color: var(--primary-color);
+    cursor: pointer;
+    padding: .4rem .8rem;
+    border-radius: .2rem;
+    opacity: .7;
+    z-index: 999;
+}

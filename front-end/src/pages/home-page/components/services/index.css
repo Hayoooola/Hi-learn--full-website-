@@ -1,0 +1,16 @@
+@import url(../../../../variables.css);
+
+.services__content__box {
+    padding: 1rem 1rem;
+    border: 2px solid var(--bg-color-light);
+    border-radius: .2rem;
+}
+
+.services__content__body__subtitle {
+    color: var(--yellow-color);
+    font-size: .9rem;
+}
+
+.services__content__icon-wrapper svg {
+    color: var(--primary-color);
+}

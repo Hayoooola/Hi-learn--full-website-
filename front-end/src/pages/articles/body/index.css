@@ -1,0 +1,55 @@
+@import url(../../../variables.css);
+
+.articles-page__image-box {
+    overflow: hidden;
+}
+
+.articles-page__content {
+    position: absolute;
+    bottom: 1.5rem;
+    z-index: 1;
+}
+
+.articles-page__title {
+    text-align: center;
+    overflow: hidden;
+    overflow-wrap: break-word;
+}
+
+.articles-page-info {
+    position: absolute;
+    width: 100%;
+    bottom: .5rem;
+    padding: 0 .5rem;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: .9rem;
+}
+
+.articles-page-info_admin {
+    font-weight: bold;
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    padding: .1rem .4rem;
+    border-radius: .1rem;
+}
+
+.articles-page__image-mask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    transition: all 400ms;
+}
+
+.articles-page__image-box:hover .articles-page__image-mask {
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.articles-page__image {
+    transition: all 400ms ease;
+}
+
+.articles-page__image-box:hover .articles-page__image {
+    transform: scale(1.1) rotate(3deg);
+}

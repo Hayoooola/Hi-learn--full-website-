@@ -1,0 +1,27 @@
+@import url(../../../../../variables.css);
+
+
+.course-details__course-info__box {
+    border: 2px solid var(--bg-color-light);
+    padding: .5rem 1rem;
+}
+
+.course-details__course-info__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.course-details__course-info__title {
+    font-size: 1.1rem;
+    color: var(--primary-color);
+}
+
+.course-details__course-info__subtitle {
+    color: var(--gray-color);
+    padding-right: 1rem;
+}
+
+.course-total-time {
+    direction: ltr;
+}

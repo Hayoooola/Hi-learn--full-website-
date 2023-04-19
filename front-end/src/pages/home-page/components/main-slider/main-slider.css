@@ -1,0 +1,53 @@
+@import url(../../../../variables.css);
+
+.main-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../../../assets/images/other/background-header.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main-section__subtitle__bold {
+    color: var(--primary-color);
+}
+
+.main-section__search-box {
+    width: 50%;
+    margin: auto;
+}
+
+.main-section__content__wrapper {
+    margin: auto 3rem;
+}
+
+.main-section__search-input {
+    border-radius: .4rem;
+    border: none;
+}
+
+.main-section__search-icon {
+    position: absolute;
+    left: .5rem;
+    top: .5rem;
+    background-color: var(--primary-color);
+    padding: .7rem 1rem;
+    border-radius: .4rem;
+}
+
+.main-section__search-input {
+    padding: 1.2rem 2rem;
+}
+
+.main-section__content__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-section__content__icon svg {
+    fill: var(--white-color);
+}
+
+.main-section__content__count {
+    font-size: 1.6rem;
+}

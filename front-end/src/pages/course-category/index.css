@@ -1,0 +1,28 @@
+@import url(../../variables.css);
+
+.course__page {
+    background-color: var(--secondary-color-dark);
+    margin: 0 .4rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 2rem;
+    border-radius: .2rem;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.course__page.active {
+    background-color: var(--secondary-color-light);
+}
+
+.course__page:hover {
+    background-color: var(--secondary-color);
+}
+
+.MuiPaper-root,
+.MuiTypography-root {
+    font-family: var(--primary-font) !important;
+}

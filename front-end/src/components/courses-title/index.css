@@ -1,0 +1,34 @@
+@import url(../../variables.css);
+
+.course-title-wrapper {
+    position: relative;
+}
+
+.course-title-wrapper::before {
+    content: "";
+    position: absolute;
+    right: -.5rem;
+    top: 0;
+    width: 0.4rem;
+    height: 3.6rem;
+    background-color: var(--primary-color);
+    border-radius: 5rem;
+    transform: rotate(12deg);
+}
+
+.course-title-wrapper::after {
+    content: "";
+    position: absolute;
+    top: .5rem;
+    right: .2rem;
+    width: 250px;
+    height: 1.5rem;
+    background-color: var(--primary-color);
+    opacity: .5;
+    z-index: -1;
+}
+
+
+.course-title__subtitle {
+    color: var(--primary-color);
+}

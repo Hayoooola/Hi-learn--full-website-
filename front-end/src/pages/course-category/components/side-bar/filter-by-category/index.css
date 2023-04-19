@@ -1,0 +1,11 @@
+@import url(../../../../../variables.css);
+
+.course-category__side-bar__title {
+    color: var(--secondary-color) !important;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.course-category__filter-item label {
+    color: var(--gray-color) !important;
+}

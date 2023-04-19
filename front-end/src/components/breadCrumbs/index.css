@@ -1,0 +1,40 @@
+@import url(../../variables.css);
+
+.breadcrumbs-container {
+    background-color: var(--bg-color-light);
+    border-radius: .3rem;
+}
+
+.breadcrumbs__home-icon {
+    background-color: var(--white-color);
+    padding: .2rem .5rem;
+    margin-left: 1.2rem !important;
+    border-radius: .5rem;
+    box-shadow: 0 0 3px var(--gray-color);
+}
+
+.breadcrumbs-container svg {
+    color: var(--muted-text) !important;
+    transition: all 400ms;
+}
+
+.breadcrumbs__home-icon:hover svg {
+    color: var(--primary-color) !important;
+}
+
+.breadcrumbs-container a {
+    color: var(--gray-color) !important;
+}
+
+.breadcrumbs-container li {
+    font-family: var(--primary-font) !important;
+}
+
+.breadcrumbs-container a:hover {
+    color: var(--primary-color) !important;
+}
+
+.breadcrumbs__course-name {
+    font-size: 1.1rem;
+    color: var(--gray-color);
+}
