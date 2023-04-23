@@ -52,6 +52,3 @@ $ cd front-end
 $ npm install
 $ npm start
 ```
-
-
-** CMD تحت توسعه است و تا هفته دیگر آپلود خواهد شد.
