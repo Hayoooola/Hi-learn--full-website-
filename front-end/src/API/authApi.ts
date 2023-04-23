@@ -46,9 +46,20 @@ const authApi = createApi({
                 }
             }),
             providesTags: ["auth"]
+        }),
+
+        updateUserInfo: builder.mutation({
+            query: ({ name, username, email, password, phone, token }) => ({
+                url: "/users",
+                method: "PUT",
+                body: { name, username, email, password, phone },
+                headers: {
+                    Authorization: `Bearer ${token}`
+                }
+            }), invalidatesTags: ["auth"]
         })
     })
 });
 
-export const { useRegisterMutation, useLoginMutation, useGetUserInfoQuery } = authApi;
+export const { useRegisterMutation, useLoginMutation, useGetUserInfoQuery, useUpdateUserInfoMutation, } = authApi;
 export default authApi;

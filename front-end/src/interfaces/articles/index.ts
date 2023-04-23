@@ -1,3 +1,4 @@
+import IComment from "../comments";
 import { ICategoryID, ICreator } from "../course-data";
 
 export default interface IArticle {
@@ -5,6 +6,7 @@ export default interface IArticle {
     cover: string,
     createdAt: string,
     updatedAt: string;
+    comments: IComment[];
     creator: ICreator;
     categoryID: ICategoryID;
     description: string;

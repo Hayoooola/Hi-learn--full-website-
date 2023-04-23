@@ -1,0 +1,61 @@
+@import url(../../../../variables.css);
+
+.panel-courses__title {
+    font-size: 1.2rem;
+}
+
+.panel-courses__title span {
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.panel-courses__no-item {
+    margin-top: 2rem;
+    text-align: justify;
+    color: var(--gray-color);
+}
+
+.panel-courses__course-box {
+    margin: 1rem 0;
+    border: 1px solid var(--secondary-color-dark);
+    box-shadow: 0 0 5px var(--secondary-color-dark);
+    border-radius: .5rem;
+    overflow: hidden;
+}
+
+.panel-courses__image {
+    height: 100%;
+    width: 100%;
+}
+
+.panel-course__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.panel-course__detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.panel-courses__course-title {
+    font-size: 1.2rem;
+}
+
+.panel-course__link {
+    display: flex;
+}
+
+.panel-course__link a {
+    background-color: var(--secondary-color-dark);
+    color: var(--white-color) !important;
+    padding: .3rem 1rem;
+    border-radius: .2rem;
+    transition: all 400ms ease;
+}
+
+.panel-course__link a:hover {
+    background-color: var(--secondary-color);
+}

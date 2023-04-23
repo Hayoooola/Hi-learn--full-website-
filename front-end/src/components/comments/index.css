@@ -85,3 +85,16 @@
     border-radius: .3rem;
     background-color: var(--white-light-color);
 }
+
+.comment-section__submit-comment-btn {
+    background-color: var(--primary-color-dark);
+    color: var(--white-color);
+    border: none;
+    padding: .3rem 1rem;
+    border-radius: .2rem;
+    transition: all 400ms ease;
+}
+
+.comment-section__submit-comment-btn:hover {
+    background-color: var(--primary-color);
+}

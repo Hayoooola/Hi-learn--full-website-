@@ -1,5 +1,9 @@
 @import url(../../../../variables.css);
 
+.main-header__user__name {
+    min-width: 66px;
+}
+
 .main-header__user__info:hover span,
 svg {
     color: var(--white-color);

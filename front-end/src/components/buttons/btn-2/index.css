@@ -1,17 +1,16 @@
 @import url(../../../variables.css);
 
-.btn1__wrapper {
-    background-color: var(--bg-color);
-    border: 1px solid var(--primary-color);
+.btn2__wrapper {
+    background-color: var(--primary-color-dark);
     padding: .4rem .8rem;
     border-radius: .2rem;
     transition: all 400ms ease-in-out;
 }
 
-.btn1__wrapper:hover {
-    background-color: var(--primary-color-dark);
+.btn2__wrapper:hover {
+    background-color: var(--primary-color);
 }
 
-.btn-1__title {
+.btn-2__title {
     color: var(--white-color) !important;
 }

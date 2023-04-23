@@ -1,9 +1,9 @@
-import { AiOutlineShopping } from "react-icons/ai";
-
 import MenuList from "../../menu";
 import LogoMain from "../../logo";
 import UserInfoBtn from "../user-info-btn";
 import SearchBtn from "../../../search";
+import Cart from "../../../cart";
+
 
 const DesktopMailHeader = () => {
     return (
@@ -29,15 +29,8 @@ const DesktopMailHeader = () => {
                     <UserInfoBtn />
                 </div>
 
-                <div className="main-header__cart mx-2">
-                    <div className="main-header__cart__cart-icon position-relative">
-                        <AiOutlineShopping size="1.8rem" />
-                        <span className="main-header__cart__cart-count">2</span>
-                    </div>
-                </div>
+                <Cart />
             </div>
-
-
         </div>
     );
 };

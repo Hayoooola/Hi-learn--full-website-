@@ -1,0 +1,94 @@
+@import url(../../../variables.css);
+
+.cart-wrapper {
+    position: fixed;
+    top: 0;
+    left: -20rem;
+    width: 20rem;
+    height: 100vh;
+    background-color: var(--bg-color-light);
+    transition: all 400ms ease;
+    z-index: 999;
+}
+
+.cart-container.show .cart-wrapper {
+    left: 0;
+}
+
+.card-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .3);
+    z-index: -1;
+    display: none;
+}
+
+.cart-container.show .card-canvas {
+    display: block;
+}
+
+.cart-title-wrapper {
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: .2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.cart-item {
+    align-items: center;
+}
+
+.cart-item__title {
+    font-size: .9rem;
+    color: var(--secondary-color);
+}
+
+.cart-item__image {
+    width: 64px;
+    height: auto;
+}
+
+.cart-item__price-wrapper {
+    display: flex;
+    color: var(--gray-color);
+}
+
+.cart-item__delete-icon {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.cart-btn {
+    background-color: var(--primary-color-dark);
+    padding: .3rem 1rem;
+    border-radius: .2rem;
+    margin-top: 1rem;
+    transition: all 400ms ease;
+}
+
+.cart-btn:hover {
+    color: var(--white-color) !important;
+}
+
+.cart-btn:hover {
+    background-color: var(--primary-color);
+}
+
+.cart-close-btn {
+    position: absolute;
+    top: 1rem;
+    right: .5rem;
+    cursor: pointer;
+}
+
+.cart-close-btn:hover svg {
+    transition: all 400ms ease;
+}
+
+.cart-close-btn:hover svg {
+    color: var(--gray-color) !important;
+}

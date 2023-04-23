@@ -57,7 +57,7 @@ const ArticleBody: FC<IProps> = ({ articleObj }) => {
                     {articleObj?.body}
                 </div>
                 <div className="article-comment-section pt-5">
-                    <CommentSection />
+                    <CommentSection comments={articleObj?.comments} title={articleObj?.title} />
                 </div>
             </div>
         </div>

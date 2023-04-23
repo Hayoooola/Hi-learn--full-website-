@@ -1,0 +1,74 @@
+@import url(../../variables.css);
+
+.cart-page-container {
+    background-color: var(--bg-color-light);
+    padding: 1rem 0;
+    border-radius: .5rem;
+}
+
+
+.cart-page-table thead tr {
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+}
+
+.cart-page__title {
+    border-bottom: 1px solid var(--primary-color-dark);
+    padding-bottom: 1rem;
+}
+
+.cart-page-table tbody {
+    margin-top: 3rem;
+}
+
+.cart-page-table tbody tr {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+
+.cart-page-table tbody th {
+    color: var(--gray-color);
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 960px) {
+
+    .course-name::before,
+    .course-price::before {
+        content: attr(data-title) ": ";
+    }
+
+}
+
+.cart-page-table .course-name {
+    padding-right: 1rem;
+}
+
+
+.course-remove svg {
+    cursor: pointer;
+}
+
+.cart-page-table .cart-page-thumbnail {
+    width: 100%;
+}
+
+.car-page-sum {
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    color: var(--secondary-color);
+}
+
+.cart-page__discount {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 2rem;
+}
+
+.empty-cart__title,
+.empty-cart__header svg {
+    color: var(--yellow-color);
+    font-size: 1.4rem;
+}

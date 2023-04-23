@@ -1,0 +1,59 @@
+@import url(../../variables.css);
+
+
+.panel-container {
+    margin: 3rem 0;
+    padding: 1rem 1rem;
+    background-color: var(--bg-color-light);
+    border-radius: .5rem;
+}
+
+.panel-loading {
+    width: 100%;
+    height: 50vh;
+}
+
+@media screen and (min-width: 960px) {
+    .panel-menu {
+        border-left: 2px solid var(--secondary-color-dark);
+    }
+}
+
+.panel-menu-item {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.panel-menu-item svg {
+    margin: auto .5rem;
+}
+
+.panel-offer {
+    width: 100%;
+    border-radius: .5rem;
+    box-shadow: 0 0 5px var(--white-color);
+}
+
+.panel-dashboard-text {
+    margin-top: 2rem;
+    color: var(--gray-color);
+}
+
+.panel-dashboard-links {
+    display: flex;
+    align-items: stretch;
+    height: 3rem;
+}
+
+.panel-dashboard-links a {
+    background-color: var(--primary-color-dark);
+    margin: auto .5rem;
+    padding: .5rem 2rem;
+    border-radius: .2rem;
+    color: var(--white-color) !important;
+    transition: all 400ms ease;
+}
+
+.panel-dashboard-links a:hover {
+    background-color: var(--primary-color);
+}

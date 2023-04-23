@@ -1,6 +1,6 @@
 import "./404.css";
 
-export const Page404 = () => {
+const Page404 = () => {
     return (
         <div className="container404">
             <div className="container">
@@ -1183,3 +1183,5 @@ export const Page404 = () => {
         </div>
     );
 };
+
+export default Page404;

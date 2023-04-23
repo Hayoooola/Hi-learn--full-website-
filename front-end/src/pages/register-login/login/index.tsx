@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
 import { CircularProgress, TextField } from "@mui/material";
 import { FiLogIn } from "react-icons/fi";
 import { GiCheckMark } from "react-icons/gi";
-import { toast } from "react-toastify";
 
 import "./index.css";
 import { useLoginMutation } from "../../../API/authApi";

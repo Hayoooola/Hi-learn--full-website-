@@ -5,7 +5,9 @@ import coursesApi from "../API/coursesApi";
 import menuApi from "../API/menusApi";
 import userInfoReducer from "../features/userData";
 import articleApi from "../API/articles";
+import commentApi from "../API/comments";
 import searchApi from "../API/search";
+import cartState from "../features/cartState";
 
 const store = configureStore({
     reducer: {
@@ -14,7 +16,9 @@ const store = configureStore({
         [menuApi.reducerPath]: menuApi.reducer,
         [articleApi.reducerPath]: articleApi.reducer,
         [searchApi.reducerPath]: searchApi.reducer,
-        userInfo: userInfoReducer
+        [commentApi.reducerPath]: commentApi.reducer,
+        userInfo: userInfoReducer,
+        userCart: cartState.reducer
     },
 
     middleware: (getDefaultMiddleware) =>
@@ -23,7 +27,8 @@ const store = configureStore({
             concat(coursesApi.middleware).
             concat(menuApi.middleware).
             concat(articleApi.middleware).
-            concat(searchApi.middleware)
+            concat(searchApi.middleware).
+            concat(commentApi.middleware)
 
 });
 

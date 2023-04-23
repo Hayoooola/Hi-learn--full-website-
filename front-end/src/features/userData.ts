@@ -10,9 +10,15 @@ const fetchUserData = createSlice({
             localStorage.setItem("user", JSON.stringify(action.payload));
 
             return { isUserLogin: true, userData: action.payload };
-        }
+        },
+
+        logOut: () => {
+            localStorage.removeItem("token");
+            localStorage.removeItem("user");
+            return { isUserLogin: false, userData: {} };
+        },
     }
 });
 
-export const { loginSuccessful } = fetchUserData.actions;
+export const { loginSuccessful, logOut } = fetchUserData.actions;
 export default fetchUserData.reducer;
